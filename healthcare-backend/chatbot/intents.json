@@ -1,0 +1,49 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "good morning", "good afternoon", "good evening"],
+      "responses": ["Hello! I'm your healthcare assistant. How can I help you today?", "Hi there! What symptoms are you experiencing?", "Hello! Please describe your health concern."]
+    },
+    {
+      "tag": "headache",
+      "patterns": ["headache", "head pain", "migraine", "head hurting", "pain in head"],
+      "responses": ["Headaches can have various causes. I recommend consulting a neurologist for proper diagnosis.", "For persistent headaches, a neurologist can help identify the cause and provide treatment."]
+    },
+    {
+      "tag": "fever",
+      "patterns": ["fever", "high temperature", "feeling hot", "body temperature"],
+      "responses": ["Fever is often a sign of infection. Please consult a general physician for proper evaluation.", "Monitor your temperature regularly. If it exceeds 102°F, seek medical attention immediately."]
+    },
+    {
+      "tag": "cough",
+      "patterns": ["cough", "coughing", "dry cough", "wet cough"],
+      "responses": ["Cough can be due to allergies, infection, or other conditions. A pulmonologist can help diagnose the cause.", "For persistent cough, it's best to consult a respiratory specialist."]
+    },
+    {
+      "tag": "stomach",
+      "patterns": ["stomach pain", "abdominal pain", "stomach ache", "belly pain"],
+      "responses": ["Stomach issues may require a gastroenterologist for proper diagnosis and treatment.", "For abdominal pain, a gastroenterologist would be the appropriate specialist."]
+    },
+    {
+      "tag": "skin",
+      "patterns": ["skin rash", "acne", "itching", "skin problem", "allergy"],
+      "responses": ["Skin conditions should be evaluated by a dermatologist for proper treatment.", "A dermatologist can diagnose and treat various skin issues effectively."]
+    },
+    {
+      "tag": "joint",
+      "patterns": ["joint pain", "back pain", "knee pain", "shoulder pain"],
+      "responses": ["Joint and bone issues are best handled by an orthopedic specialist.", "For persistent joint pain, consulting an orthopedic doctor is recommended."]
+    },
+    {
+      "tag": "emergency",
+      "patterns": ["emergency", "severe pain", "can't breathe", "bleeding", "unconscious"],
+      "responses": ["🚨 This sounds serious! Please call emergency services immediately or go to the nearest hospital."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thank you", "thanks", "thank you so much"],
+      "responses": ["You're welcome! Take care of your health.", "Glad I could help! Get well soon."]
+    }
+  ]
+}
